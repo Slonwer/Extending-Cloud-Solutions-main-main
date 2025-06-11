@@ -53,4 +53,130 @@ Tecnologia de automação de um servidor juntamente com arduino como base de ref
 ![GUI da Calculadora](https://www.storagereview.com/wp-content/uploads/2023/03/StorageReview-Proxmox-VE-7-4-1024x529.png)
 
 
+Infraestrutura Automatizada com Terraform, Proxmox, Docker, Ansible, Redis e Celery
+Este projeto implementa a infraestrutura como código para provisionamento e orquestração de ambientes virtualizados com Proxmox usando Terraform, containerização via Docker, automação de configuração com Ansible, além da configuração de sistemas distribuídos com Redis e Celery.
+
+📦 Tecnologias e Ferramentas Utilizadas
+Terraform: Provisionamento e gerenciamento de máquinas virtuais no Proxmox VE.
+
+Proxmox VE: Plataforma
+
+Docker: Containerização para isolamento do ambiente Terraform, RedisInsight e serviços auxiliares.
+
+Ansible: Automação da configuração e provisionamento pós-criação da VM.
+
+Redis: Sistema de armazenamento em memória, utilizado como broker para Celery.
+
+Celery: Sistema distribuído para processamento assíncrono de tarefas.
+
+RedisInsight: Ferramenta gráfica para monitoramento e gerenciamento de bancos Redis.
+
+🚀 Arquitetura do Projeto
+Terraform cria VMs no Proxmox
+
+Ansible configura os serviços dentro das VMs criadas (ex: instalação de Redis, Celery workers).
+
+Docker é usado para executar o Terraform de maneira isolada, assim como para o RedisInsight e serviços auxiliares.
+
+Redis funciona como broker para filas de tarefas distribuídas via Celery.
+
+RedisInsight roda via container Docker para monitoramento visual do Redis.
+
+🛠 Configuração
+Variáveis essenciais (terraform.tfvars):
+hcl
+
+Copiar
+
+Editar
+proxmox_host_ip   = "192.168.1.100"
+proxmox_user      = "root@pam"
+proxmox_password  = "SUA_SENHA_AQUI"
+pve_node_name     = "pve01"
+storage_pool_name = "local-lvm"
+⚙️ Como usar
+1. Inicializar Terraform dentro do container Docker
+festança
+
+Copiar
+
+Editar
+docker run --rm -v "${PWD}:/app" terraform-app init
+2. Planejar a infraestrutura
+festança
+
+Copiar
+
+Editar
+docker run --rm -v "${PWD}:/app" terraform-app plan
+3. A
+festança
+
+Copiar
+
+Editar
+docker run --rm -v "${PWD}:/app" terraform-app apply -auto-approve
+4. Pesquise por Ansible
+festança
+
+Copiar
+
+Editar
+ansible-playbook -i inventory.ini setup.yml
+5. Executar RedisInsight via Docker
+festança
+
+Copiar
+
+Editar
+docker run -d --name redisinsight -p 8001:8001 redis/redisinsight:latest
+Acesse a interface web no http://localhost:8001.
+
+🔍 Sobre o RedisInsight
+RedisInsight é uma aplicação GUI desenvolvida pela Redis Inc. que facilita:
+
+Visão
+
+Monitoramento de desempenho em tempo real.
+
+Execução de comandos Redis via console.
+
+Análise detalhada das queries Redis.
+
+Uso e visualização dos módulos Redis, como RedisJSON e RediSearch.
+
+Tecnologias do RedisInsight:
+Electron (para app desktop multiplataforma, embora aqui usemos a versão web via Docker).
+
+Node.js e JavaScript para backend e frontend.
+
+Redis client libraries para comunicação com servidores Redis.
+
+Banco de dados local (SQLite ou Redis embutido) para armazenar configurações e histórico.
+
+Código-fonte e imagem Docker:
+RedisInsight não é de código aberto, mas sua imagem oficial está disponível publicamente:
+https://hub.docker.com/r/redis/redisinsi
+
+Estrutura do projeto
+Arduino
+
+Copiar
+
+Editar
+.
+├── Dockerfile
+├── docker-compose.yml
+├── main.tf
+├── providers.tf
+├── terraform.tfvars
+├── variables.tf
+├── ansible/
+│   ├── inventory.ini
+│   └── setup.yml
+├── templates/
+└── README.md
+
+
+
 
