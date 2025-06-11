@@ -86,8 +86,6 @@ RedisInsight roda via container Docker para monitoramento visual do Redis.
 Variáveis essenciais (terraform.tfvars):
 hcl
 
-Copiar
-
 Editar
 proxmox_host_ip   = "192.168.1.100"
 proxmox_user      = "root@pam"
@@ -98,39 +96,6 @@ storage_pool_name = "local-lvm"
 1. Inicializar Terraform dentro do container Docker
 festança
 
-Copiar
-
-Editar
-docker run --rm -v "${PWD}:/app" terraform-app init
-2. Planejar a infraestrutura
-festança
-
-Copiar
-
-Editar
-docker run --rm -v "${PWD}:/app" terraform-app plan
-3. A
-festança
-
-Copiar
-
-Editar
-docker run --rm -v "${PWD}:/app" terraform-app apply -auto-approve
-4. Pesquise por Ansible
-festança
-
-Copiar
-
-Editar
-ansible-playbook -i inventory.ini setup.yml
-5. Executar RedisInsight via Docker
-festança
-
-Copiar
-
-Editar
-docker run -d --name redisinsight -p 8001:8001 redis/redisinsight:latest
-Acesse a interface web no http://localhost:8001.
 
 🔍 Sobre o RedisInsight
 RedisInsight é uma aplicação GUI desenvolvida pela Redis Inc. que facilita:
