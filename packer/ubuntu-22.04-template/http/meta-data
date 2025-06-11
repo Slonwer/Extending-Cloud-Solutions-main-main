@@ -1,0 +1,47 @@
+server {
+    listen 80;
+    server_name extendcloud.com www.extendcloud.com;
+    return 301 https://$host$request_uri;  # Redireciona HTTP para HTTPS
+}
+
+server {
+    listen 443 ssl;
+    server_name extendcloud.com www.extendcloud.com;
+
+    ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
+    ssl_trusted_certificate /etc/letsencrypt/live/example.com/chain.pem;
+
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_prefer_server_ciphers on;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+<VirtualHost *:80>
+    ServerName extendcloud.com
+    ServerAlias www.extendcloud.com
+    Redirect "/" "https://extendcloud.com/"
+</VirtualHost>
+
+<VirtualHost *:443>
+    ServerName extendcloud.com
+    ServerAlias www.extendcloud.com
+
+    SSLEngine on
+    SSLCertificateFile /etc/letsencrypt/live/extendcloud.com/fullchain.pem
+    SSLCertificateKeyFile /etc/letsencrypt/live/extendcloud.com/privkey.pem
+    SSLCertificateChainFile /etc/letsencrypt/live/extendcloud.com/chain.pem
+
+    # Ajustes de segurança
+    SSLProtocol All -SSLv2 -SSLv3
+    SSLCipherSuite HIGH:!aNULL:!MD5
+    SSLHonorCipherOrder on
+
+    DocumentRoot /var/www/html
+
+    <Directory /var/www/html>
+        AllowOverride All
+    </Directory>
+</VirtualHost>

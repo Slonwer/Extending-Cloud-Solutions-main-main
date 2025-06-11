@@ -1,0 +1,2 @@
+celery
+boto3

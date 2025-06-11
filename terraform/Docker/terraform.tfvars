@@ -1,0 +1,5 @@
+proxmox_host_ip = "192.168.0.10"
+proxmox_user = "root@pam"
+proxmox_password = "minha_senha_super_segura"
+pve_node_name = "proxmox"
+storage_pool_name = "local-lvm"
