@@ -13,3 +13,7 @@ variable "proxmox_password" {
   type        = string
   sensitive   = true  # Evita que a senha seja exibida nos logs
 }
+variable "pve_node_name" {
+  description = "Nome do nó Proxmox (ex: pve01)"
+  type        = string
+}
