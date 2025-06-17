@@ -123,25 +123,44 @@ Código-fonte e imagem Docker:
 RedisInsight não é de código aberto, mas sua imagem oficial está disponível publicamente:
 https://hub.docker.com/r/redis/redisinsi
 
-Estrutura do projeto
-Arduino
-
-Copiar
-
-Editar
-.
-├── Dockerfile
-├── docker-compose.yml
-├── main.tf
-├── providers.tf
-├── terraform.tfvars
-├── variables.tf
-├── ansible/
-│   ├── inventory.ini
-│   └── setup.yml
-├── templates/
-└── README.md
-
-
+Infraestrutura de Backend Modular
+│
+├── 📦 Containerização (Docker)
+│   ├── Backend (Flask, Node.js, etc.)
+│   ├── Redis (Cache)
+│   ├── PostgreSQL / MySQL (Banco de Dados)
+│   └── Outros serviços auxiliares (Workers, Jobs, etc.)
+│
+├── 🔁 Orquestração
+│   ├── Docker Compose (Local/Teste)
+│   └── Kubernetes (Produção/Escalável)
+│       └── StorageClass + HostPath (Persistência)
+│
+├── 📊 Monitoramento & Gerência
+│   └── Portainer (Gerência visual dos containers)
+│
+├── 🧠 Cache e Otimização
+│   └── Redis
+│       ├── Armazenamento de sessões temporárias
+│       ├── Cache de consultas pesadas
+│       └── Fila de tarefas (pub/sub)
+│
+├── 💾 Persistência de Dados
+│   ├── Volumes Docker
+│   └── PVCs com HostPath (Kubernetes)
+│
+├── ⚙ Infraestrutura como Código
+│   └── Terraform
+│       ├── Geração automática de volumes, pods, redes
+│       └── Scripts de provisionamento e deploy
+│
+└── 📚 Aplicações Suportadas
+    ├── Sistema de Estoque
+    │   ├── Cadastro de produtos
+    │   ├── Entradas e saídas
+    │   ├── Relatórios
+    │   └── Controle de usuários
+    ├── API RESTful para aplicações web
+    └── Integrações entre sistemas (ETL / automações)
 
 
