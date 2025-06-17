@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\Redes\\config.redes.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Redes\\config.redes.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\firewall.tf||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:firewall.tf||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\terraform\\Docker\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:terraform\\Docker\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\terraform\\Docker\\main.tf||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:terraform\\Docker\\main.tf||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\Redes\\rede.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Redes\\rede.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\terraform\\Docker\\terraform.tfvars||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:terraform\\Docker\\terraform.tfvars||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\docker||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "config.redes.sh",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\Redes\\config.redes.sh",
+              "RelativeDocumentMoniker": "Redes\\config.redes.sh",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\Redes\\config.redes.sh",
+              "RelativeToolTip": "Redes\\config.redes.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-06-15T02:05:22.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "firewall.tf",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\firewall.tf",
+              "RelativeDocumentMoniker": "firewall.tf",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\firewall.tf",
+              "RelativeToolTip": "firewall.tf",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-15T02:01:25.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Makefile",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\Makefile",
+              "RelativeDocumentMoniker": "Makefile",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\Makefile",
+              "RelativeToolTip": "Makefile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-15T02:01:24.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\terraform\\Docker\\Dockerfile",
+              "RelativeDocumentMoniker": "terraform\\Docker\\Dockerfile",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\terraform\\Docker\\Dockerfile",
+              "RelativeToolTip": "terraform\\Docker\\Dockerfile",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-15T02:01:22.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.tf",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\terraform\\Docker\\main.tf",
+              "RelativeDocumentMoniker": "terraform\\Docker\\main.tf",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\terraform\\Docker\\main.tf",
+              "RelativeToolTip": "terraform\\Docker\\main.tf",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-15T02:01:21.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "rede.sh",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\Redes\\rede.sh",
+              "RelativeDocumentMoniker": "Redes\\rede.sh",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\Redes\\rede.sh",
+              "RelativeToolTip": "Redes\\rede.sh",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-06-15T02:00:57.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "terraform.tfvars",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\terraform\\Docker\\terraform.tfvars",
+              "RelativeDocumentMoniker": "terraform\\Docker\\terraform.tfvars",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\terraform\\Docker\\terraform.tfvars",
+              "RelativeToolTip": "terraform\\Docker\\terraform.tfvars",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-15T02:00:46.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "docker",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\docker",
+              "RelativeDocumentMoniker": "docker",
+              "ToolTip": "C:\\Users\\Gabriel\\OneDrive\\Documentos\\Extending-Cloud-Solutions-main-main\\docker",
+              "RelativeToolTip": "docker",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-15T02:00:40.881Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
